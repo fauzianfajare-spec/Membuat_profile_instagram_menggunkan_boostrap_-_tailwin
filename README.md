@@ -1,4 +1,4 @@
-# Membuat_profile_instagram_menggunkan_boostrap_-_tailwin
+# Membuat_profile_instagram_menggunkan_boostrap_&_tailwin
 # BOOSTRAP
 # 📷 Profil Instagram – Bootstrap Grid Implementation
 
