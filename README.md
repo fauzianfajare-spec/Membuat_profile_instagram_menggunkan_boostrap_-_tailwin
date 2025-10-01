@@ -129,10 +129,10 @@ Saya menggunakan berbagai class **responsif bawaan Tailwind**, seperti:
   <img src="assets/img/foto1.jpg" class="w-full h-full object-cover rounded shadow" />
   <!-- Tambahkan hingga foto12 -->
 </section>
-
+```
+## Untility VS CSS Custom (komponen Tersendiri)
 | Utility Classes (Tailwind)                | CSS Custom / Komponen Tersendiri     |
 | ----------------------------------------- | ------------------------------------ |
 | ✅ Cepat & konsisten                      | ✅ Lebih rapi untuk struktur kompleks |
 | ✅ Mudah buat responsif (dengan `sm:` dsb)| ✅ Lebih mudah dipakai ulang          |
 | ❌ Bisa membuat HTML panjang dan ramai    | ❌ Harus tulis dan kelola file CSS    |
-```
