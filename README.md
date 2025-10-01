@@ -78,8 +78,7 @@ Jika Postingan Bertambah Jadi 50, Apa Potensi Masalah & Solusi Grid?
 
 4. Optimasi gambar
     --> Gunakan gambar resolusi kecil untuk galeri (thumbnail)
-
-
+```
 
 
 # TAILWIN
@@ -136,3 +135,4 @@ Saya menggunakan berbagai class **responsif bawaan Tailwind**, seperti:
 | ✅ Cepat & konsisten                      | ✅ Lebih rapi untuk struktur kompleks |
 | ✅ Mudah buat responsif (dengan `sm:` dsb)| ✅ Lebih mudah dipakai ulang          |
 | ❌ Bisa membuat HTML panjang dan ramai    | ❌ Harus tulis dan kelola file CSS    |
+```
