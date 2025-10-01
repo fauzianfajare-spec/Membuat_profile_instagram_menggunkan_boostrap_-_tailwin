@@ -1,0 +1,170 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+  
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <style>
+
+        body {
+            background-color: #fafafa;
+        }
+        .profile-header {
+            padding: 40px 0;
+            border-bottom: 1px solid #ddd;
+        }
+        .profile-photo {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            object-fit: cover;
+            border: 2px solid #fff;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+        .stats-item {
+            font-size: 1.1rem;
+        }
+        .stats-item strong {
+            display: block;
+            font-size: 1.5rem;
+        }
+        .post-grid .card {
+            border: none;
+            border-radius: 0;
+            overflow: hidden;
+            height: 100%; /* Pastikan tinggi konsisten */
+        }
+        .post-grid .card img {
+            width: 100%;
+            height: 250px; /* Tinggi gambar yang konsisten */
+            object-fit: cover;
+            transition: transform 0.2s;
+        }
+        .post-grid .card img:hover {
+            transform: scale(1.05);
+        }
+        .footer {
+            padding: 20px 0;
+            text-align: center;
+            font-size: 0.9rem;
+            color: #8e8e8e;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container-fluid">
+        <!-- Header Profil -->
+        <div class="container profile-header">
+            <div class="row align-items-center">
+                <!-- Foto Profil -->
+                <div class="col-sm-4 d-flex justify-content-center justify-content-sm-end mb-3 mb-sm-0">
+                    <img src="images/1.jpg" alt="Foto Profil" class="profile-photo">
+                </div>
+                <!-- Info Profil -->
+                <div class="col-sm-8 text-center text-sm-start">
+                    <div class="d-flex align-items-center justify-content-center justify-content-sm-start mb-3">
+                        <h2 class="me-3"><Fieldset>fauzianfajar_98</Fieldset></h2>
+                        <!-- Tombol Interaksi: Posisi berubah di breakpoint 'md' -->
+                        <button class="btn btn-primary btn-sm me-2 order-md-2 d-none d-sm-inline-block">Ikuti</button>
+                        <button class="btn btn-secondary btn-sm me-2 order-md-1 d-none d-sm-inline-block">Edit Profil</button>
+                    </div>
+                    <div class="row text-center text-sm-start mb-3">
+                        <div class="col-4 col-sm-auto stats-item">
+                            <strong>12</strong> postingan
+                        </div>
+                        <div class="col-4 col-sm-auto stats-item">
+                            <strong>10</strong> pengikut
+                        </div>
+                        <div class="col-4 col-sm-auto stats-item">
+                            <strong>120</strong> mengikuti
+                        </div>
+                    </div>
+                    <div class="profile-bio">
+                        <h5 class="fw-bold">Jann</h5>
+                              <p>Gamer 🎮  | baca komik 📚<br />
+                                📍 Tenggarong<br /></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Feed Foto -->
+        <div class="container my-5">
+            <h3 class="text-center mb-4">Postingan</h3>
+            <div class="row g-4 post-grid">
+                <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+                    <div class="card">
+                        <img src="images/2.jpeg" class="card-img-top" alt="Gambar Postingan 1">
+                    </div>
+                </div>
+                <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+                    <div class="card">
+                        <img src="images/4.jpeg" class="card-img-top" alt="Gambar Postingan 2">
+                    </div>
+                </div>
+                <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+                    <div class="card">
+                        <img src="images/5.jpeg" class="card-img-top" alt="Gambar Postingan 3">
+                    </div>
+                </div>
+                <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+                    <div class="card">
+                        <img src="images/7.jpeg" class="card-img-top" alt="Gambar Postingan 4">
+                    </div>
+                </div>
+                <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+                    <div class="card">
+                        <img src="images/8.jpeg" class="card-img-top" alt="Gambar Postingan 5">
+                    </div>
+                </div>
+                <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+                    <div class="card">
+                        <img src="images/10.jpeg" class="card-img-top" alt="Gambar Postingan 6">
+                    </div>
+                </div>
+                <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+                    <div class="card">
+                        <img src="images/16.gif" class="card-img-top" alt="Gambar Postingan 7">
+                    </div>
+                </div>
+                <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+                    <div class="card">
+                        <img src="images/11.gif" class="card-img-top" alt="Gambar Postingan 8">
+                    </div>
+                </div>
+                <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+                    <div class="card">
+                        <img src="images/12.gif" class="card-img-top" alt="Gambar Postingan 9">
+                    </div>
+                </div>
+                <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+                    <div class="card">
+                        <img src="images/13.gif" class="card-img-top" alt="Gambar Postingan 10">
+                    </div>
+                </div>
+                <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+                    <div class="card">
+                        <img src="images/15.gif" class="card-img-top" alt="Gambar Postingan 11">
+                    </div>
+                </div>
+                <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+                    <div class="card">
+                        <img src="images/14.gif" class="card-img-top" alt="Gambar Postingan 12">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Footer -->
+        <footer class="footer mt-5">
+            <p>&copy; 2025 Instagram dari Meta</p>
+        </footer>
+    </div>
+
+    <!-- Bootstrap JS CDN (wajib untuk beberapa komponen) -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
